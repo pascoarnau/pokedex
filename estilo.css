@@ -1,12 +1,9 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif; /* Cambia esto a la fuente que desees */
-    background-image: url(/imagenespokemons/kanto-map.jpeg); /* Cambia esto a la ruta de tu imagen de fondo */
+    background-image: url('imagenespokemons/kanto-map.jpeg'); /* Cambia esto a la ruta de tu imagen de fondo */
     background-size: cover;
     background-position: center;
 }
-h1 {
+.title {
     position: absolute;
     top: 0;
     left: 50%;
