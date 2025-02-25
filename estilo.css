@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Cambia esto a la fuente que desees */
+    background-image: url(/imagenespokemons/kanto-map.jpeg); /* Cambia esto a la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    font-size: 2em; /* Ajusta el tamaño de la fuente según sea necesario */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejorar la legibilidad */
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro para el subrayado */
+    padding: 10px 0;
+}
